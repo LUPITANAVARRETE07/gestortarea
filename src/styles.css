@@ -4,7 +4,7 @@ body{
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    height: 100vh ;
+    height: 100px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,5 +54,18 @@ body{
  /*estilos a la lista*/
  li {
      background-color: #f4f4f4;
+     padding:  10px;
+     border:  1px solid #ddd;
+     margin-top: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 
+ 
  }
+
+ /*estilos para cuando una tarea esta completada */
+  li.completed {
+   color:#888;
+   text-decoration: line-through;
+  }
